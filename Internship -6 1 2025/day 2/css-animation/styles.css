@@ -1,0 +1,70 @@
+*{
+background-color: darkgrey;
+ margin: 0;
+ padding: 0%;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(62, 149, 79);
+    margin: 1px;
+    transition: width 50ms, height  50ms ,box-shadow 50ms;
+    border-radius: 10%;
+    font-size: 80px;
+    color: aliceblue;
+    animation-name: btn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ }
+
+.container:hover{  
+
+
+
+    box-shadow: 1px 1px 20px rgb(255, 255, 255);
+    cursor: pointer;
+   height: 240px;
+    width: 480px;
+    transition-timing-function: ease-in-out;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 255, 208);
+     
+}
+
+@keyframes btn{
+    0%{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }10%{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }20%{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }30%{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }40%{
+        font-family: Arial, Helvetica, sans-serif;
+    }50%{
+        font-family: 'Times New Roman', Times, serif;
+    }60%{     
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }70%{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }80%{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }90%{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }100%{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+

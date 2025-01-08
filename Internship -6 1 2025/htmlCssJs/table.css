@@ -1,0 +1,15 @@
+table,th,tr{
+    border: 2px dotted gray;
+}
+
+.weight{
+    font-weight: bold;
+}
+
+.bg1{
+    background-color: aquamarine;
+}
+
+.bg2{
+    background-color: pink;
+}
