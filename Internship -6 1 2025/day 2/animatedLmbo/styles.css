@@ -109,12 +109,44 @@ html, body {
     background-repeat: no-repeat;
 }
 
+ #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 250, 201) 50%, rgb(255, 234, 0) 100%);
+    padding: 0 20px;
+}
 
-header {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul > img {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+ul > li {
+    margin: 0 15px;
+}
+
+ul > li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+ul > li:hover {
+    color: blueviolet;
+    cursor: pointer; font-size: 18px;
+    text-shadow: 0px 0px 4px rgb(254, 237, 0);
 }
 
 footer  {
@@ -245,4 +277,88 @@ main {
 .card .details p {
     margin: 5px 0;
     font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+ul > img {
+    padding: 10px;
+    width: 140px;
+    height: 60px;
+    margin: 0; 
+}
+
+ ul {
+    display: flex;
+    justify-content: space-between;
+ }
+ ul > li {
+    display: flex;
+    padding-left: 16%;
+    margin-top: 10%;
+    list-style: none;
+    }
+ ul > li a{
+    text-decoration: none;
+    display: flex;
+    padding-left: 16%;
+    margin-top: 10%;
+    list-style: none;
+    }
+
+ ul > li:hover{
+    color: blueviolet; 
+    cursor: pointer; 
+ }
+
+#main {
+    width: 100%;
+    height: 100%;
+    background: black url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a52798da-f056-4008-b1d1-b7de2fbe1dce/dfsavdn-9abb7bb0-154d-4b25-8ebd-473a4b958f89.png/v1/fill/w_1280,h_732,q_80,strp/anime_style_lamborghini_wallpaper_by_resonance007_dfsavdn-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMyIiwicGF0aCI6IlwvZlwvYTUyNzk4ZGEtZjA1Ni00MDA4LWIxZDEtYjdkZTJmYmUxZGNlXC9kZnNhdmRuLTlhYmI3YmIwLTE1NGQtNGIyNS04ZWJkLTQ3M2E0Yjk1OGY4OS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.q-K2poVKMAubn89y9exq5-74-YbomX4oTMFZwB4mhVI') no-repeat center/cover;
+    color: aliceblue;text-shadow: 0px 0px 25px pink  ;
+}
+
+#main > h1{
+    margin-left:30px;
+    font-size: 150px;padding: 30px;
+}
+
+#main > h2{
+  margin-left:30px;padding: 20px;
+    font-size: 60px;
+}
+
+#main > h3{margin-left:30px;
+    padding: 10px;
+    font-size: 20px; 
+}
+
+ #footer {
+    width: 100%;
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+#footer a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#footer a:hover {
+    text-decoration: underline;
 }
