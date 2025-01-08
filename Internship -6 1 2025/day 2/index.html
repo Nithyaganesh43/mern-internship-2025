@@ -11,20 +11,22 @@
             background-color: black;
             display: flex;
             justify-content: center;
-            align-items: center;
-            margin: 0; 
+            align-items: center; 
+            margin: 0;
+            flex-direction: column;
         }
 
         form {
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 80%;
+            width: 90%;
             max-width: 400px;
             padding: 20px;
             background-color: #222;
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            box-sizing: border-box;
         }
 
         fieldset {
@@ -33,6 +35,23 @@
             padding: 16px;
             margin-bottom: 16px;
             width: 100%;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
         }
 
         legend {
@@ -57,6 +76,7 @@
             border: 1px solid #ccc;
             border-radius: 4px;
             font-size: 14px;
+            box-sizing: border-box;
         }
 
         button {
@@ -83,61 +103,53 @@
 </head>
 
 <body>
-    <form action="https://formspree.io/f/xannlvne" method="POST">
+    <h1>Nithya Ganesh </h1>
+    <form action="https://formspree.io/f/xovvpoak" method="POST">
         <fieldset>
             <legend>Personal Information</legend>
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
             <label for="password">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter your password" required>
-
             <label for="age">Age</label>
             <input type="number" id="age" name="age" placeholder="Enter your age" required>
-
             <label for="contact">Contact No</label>
             <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" required>
-
             <label for="dob">DOB</label>
             <input type="date" id="dob" name="dob" required>
         </fieldset>
-
         <fieldset>
             <legend>Professional Information</legend>
             <label for="year">Passed Out Year</label>
             <input type="text" id="year" name="year" placeholder="Enter your passed-out year" required>
-
             <label for="profile">Profile</label>
             <input type="image" id="profile" name="profile" alt="Upload your profile">
-
             <label for="resume">Resume</label>
             <input type="file" id="resume" name="resume" required>
         </fieldset>
-
         <fieldset>
             <legend>Additional Details</legend>
             <label>Gender</label>
             <input type="radio" name="gender" value="male" required> Male
             <input type="radio" name="gender" value="female"> Female
             <input type="radio" name="gender" value="others"> Others
-
             <label>Programming Skills</label>
             <input type="checkbox" name="skills" value="javascript"> JavaScript
             <input type="checkbox" name="skills" value="python"> Python
             <input type="checkbox" name="skills" value="cpp"> C++
-
             <label for="url">LinkedIn URL</label>
             <input type="url" id="url" name="linkedin" placeholder="LinkedIn URL">
-
             <label for="color">Favorite Color</label>
             <input type="color" id="color" name="color">
         </fieldset>
-
         <button type="submit">Submit</button>
     </form>
+    <footer>
+        <a href="https://github.com/Nithyaganesh43/mern-internship-2025/blob/main/Internship%20-6%201%202025/day%202/index.html"
+            title="See my code">See my code</a>
+    </footer>
 </body>
 
 </html>
