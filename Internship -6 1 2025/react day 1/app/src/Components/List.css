@@ -1,0 +1,76 @@
+.list
+{
+    overflow:hidden;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+   height: auto;
+   min-height: 50px;
+    box-shadow: 5px 5px 10px #787195 ;
+    background-color:#E5D9F2;
+    border-radius: 25px;
+    width: 80vmin;
+}
+
+.list p {
+    padding: 0px 15px; 
+    width: 70vw;
+    max-width: 70vmin;
+
+}
+
+.list button {
+    
+    margin: 0.5vmin 0.5vmin 0px 0px;
+    height: 6vmin;
+    box-shadow: 5px 5px 10px #787195 ;
+    width: 10vmin;
+    border-radius: 50%;
+    border-color: transparent;
+    color: rgb(183, 0, 12);
+    background-color: #A1EEBD;
+}
+
+@media (max-width:426px){
+    .list p {
+        font-size: medium;
+    padding: 0px 15px; 
+    width: 70vw;
+    max-width: 70vmin;
+
+}
+    .list button {
+    
+    margin: 1vmin 1vmin 0px 0px;
+    height: 9vmin;
+    width: 12vmin;
+    border-radius: 50%;
+    border-color: transparent;
+    color: rgb(183, 0, 12);
+    background-color: #A1EEBD;
+}
+    
+}
+
+
+
+@media (max-width:321px){
+    .list p {
+        font-size: medium;
+    padding: 0px 15px; 
+    width: 70vw;
+    max-width: 70vmin;
+
+}
+    .list button {
+    
+    margin: 3vmin 3vmin 0px 0px;
+    height: 9vmin;
+    width: 12vmin;
+    border-radius: 50%;
+    border-color: transparent;
+    color: rgb(183, 0, 12);
+    background-color: #A1EEBD;
+}
+    
+}

@@ -1,0 +1,38 @@
+.Container{
+    background-color:#CDC1FF;
+    width: 90vmin;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vmin;
+    box-shadow: 5px 5px 10px #787195 ;
+    min-height: 90vh;
+}
+
+.Container .Bar {
+    margin: 5vmin;
+    font-size:larger;
+}
+.Container .Bar input{
+    width: 50vmin;
+    height: 5vmin;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #787195 ;
+    padding: 4px 5px;
+font-size: medium;
+    font-style: oblique
+}
+.Container .Bar button{
+font-size: medium;
+    font-style: oblique;
+    margin: 0 0px 0 15px;
+    width: 15vmin;
+    box-shadow: 5px 5px 10px #787195 ;
+    height: 10vmin;
+    max-width: 70px;
+    max-height: 55px;
+    background-color: #A1EEBD;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
