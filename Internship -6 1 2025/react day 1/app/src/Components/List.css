@@ -9,6 +9,8 @@
     box-shadow: 5px 5px 10px #787195 ;
     background-color:#E5D9F2;
     border-radius: 25px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     width: 80vmin;
 }
 
@@ -29,7 +31,19 @@
     border-color: transparent;
     color: rgb(183, 0, 12);
     background-color: #A1EEBD;
+   
 }
+
+ .list input 
+ {
+    width: 12vmin;
+    height: auto;
+   min-height: 50px;
+    border-radius: 50px;
+    margin-left: 5px;
+ }
+
+
 
 @media (max-width:426px){
     .list p {

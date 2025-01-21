@@ -21,7 +21,8 @@
     box-shadow: 5px 5px 10px #787195 ;
     padding: 4px 5px;
 font-size: medium;
-    font-style: oblique
+    font-style: oblique;
+     border: none;
 }
 .Container .Bar button{
 font-size: medium;
@@ -35,4 +36,5 @@ font-size: medium;
     background-color: #A1EEBD;
     padding: 2px 5px;
     border-radius: 20px;
+     border: none;
 }
