@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "question": "What is the fastest way to lose friends?",
+    "answer": [
+      { "text": "Forget their birthday", "correct": false },
+      { "text": "Correct their grammar online", "correct": false },
+      { "text": "Ignore their texts", "correct": true },
+      { "text": "Ask them to do work for you", "correct": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What is the actual color of the sun?",
+    "answer": [
+      { "text": "Yellow", "correct": false },
+      { "text": "White", "correct": true },
+      { "text": "Orange", "correct": false },
+      { "text": "Red", "correct": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Which planet is known as the Red Planet?",
+    "answer": [
+      { "text": "Venus", "correct": false },
+      { "text": "Mars", "correct": true },
+      { "text": "Jupiter", "correct": false },
+      { "text": "Saturn", "correct": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is the largest mammal in the world?",
+    "answer": [
+      { "text": "African Elephant", "correct": false },
+      { "text": "Blue Whale", "correct": true },
+      { "text": "Giraffe", "correct": false },
+      { "text": "Great White Shark", "correct": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the primary gas in Earth’s atmosphere?",
+    "answer": [
+      { "text": "Oxygen", "correct": false },
+      { "text": "Nitrogen", "correct": true },
+      { "text": "Carbon Dioxide", "correct": false },
+      { "text": "Helium", "correct": false }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is the smallest unit of life?",
+    "answer": [
+      { "text": "Tissue", "correct": false },
+      { "text": "Cell", "correct": true },
+      { "text": "Organ", "correct": false },
+      { "text": "Molecule", "correct": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Which ocean is the deepest?",
+    "answer": [
+      { "text": "Atlantic Ocean", "correct": false },
+      { "text": "Indian Ocean", "correct": false },
+      { "text": "Arctic Ocean", "correct": false },
+      { "text": "Pacific Ocean", "correct": true }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the chemical symbol for water?",
+    "answer": [
+      { "text": "H2O", "correct": true },
+      { "text": "O2", "correct": false },
+      { "text": "CO2", "correct": false },
+      { "text": "HO2", "correct": false }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Which language is the most spoken worldwide?",
+    "answer": [
+      { "text": "Spanish", "correct": false },
+      { "text": "Mandarin Chinese", "correct": true },
+      { "text": "English", "correct": false },
+      { "text": "Hindi", "correct": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "What is the capital of Japan?",
+    "answer": [
+      { "text": "Osaka", "correct": false },
+      { "text": "Kyoto", "correct": false },
+      { "text": "Tokyo", "correct": true },
+      { "text": "Nagoya", "correct": false }
+    ]
+  }
+]
